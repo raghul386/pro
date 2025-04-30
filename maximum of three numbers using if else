@@ -1,0 +1,12 @@
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+if a >= b and a >= c:
+    max_num = a
+elif b >= a and b >= c:
+    max_num = b
+else:
+    max_num = c
+
+print(f"The maximum number is: {max_num}")
